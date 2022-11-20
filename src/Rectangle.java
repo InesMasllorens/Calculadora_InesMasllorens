@@ -6,10 +6,11 @@ public class Rectangle {
 
         public Rectangle(double base, double altura){
             super();
-            this.b = base;
-            this.a = altura;
+            this.base = base;
+            this.altura = altura;
         }
         public double GetArea(){
-            return this.a*this.b;
+
+            return this.altura*this.base;
         }
 }

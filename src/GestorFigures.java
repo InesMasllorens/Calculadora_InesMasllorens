@@ -8,27 +8,24 @@ import java.util.Comparator;
             vector[0]= new Cercle(2);
             vector[1]= new Rectangle(5,10);
             vector[2]= new TriangleEQ(5,4);
-            double resultat = suma(vector);
-            System.out.println("El resultat de la suma és: "+ resultat);
-            // print(v);
-            //sort(vector);
-            // print(v);
+            double result = suma(vector);
+            System.out.println("El resultat de la suma és: "+ result);
+            System.out.println(vector);
+            sort(vector);
+            System.out.println(vector);
 
         }
         public static double suma (Figura[] vector){
             double suma = 0;
-            for (Figura f:vector){
                 ///suma += area com s'hagi declarat
                 for (Figura v: vector){
                     suma += v.area();
                 }
                 return suma;
-            }
+
             public static void sort (Figura[] vector){
                 Arrays.sort(vector);
             }
-            public static void main (String[] args){
 
-            }
         }
 }

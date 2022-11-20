@@ -1,9 +1,9 @@
-public class Cercle (double radio){
-    this.r = radio;
-
-    public double GetArea(){
-        return Math.PI * Math.pow(this.r,2);
+public class Cercle extends Figura{
+    private double r;
+    public Circulo(double radio){
+        this.r=radio;
     }
-
-
+    public double area(){
+        return (Math.PI*this.r*this.r);
+    }
 }

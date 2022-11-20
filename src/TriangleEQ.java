@@ -5,11 +5,11 @@ public class TriangleEQ {
         private double altura;
         public TriangleEQ(double base, double altura){
             super();
-            this.b = base;
-            this.a = altura;
+            this.base = base;
+            this.altura = altura;
         }
         public double GetArea(){
 
-            return this.b*this.h/2;
+            return this.base*this.altura/2;
         }
 }
