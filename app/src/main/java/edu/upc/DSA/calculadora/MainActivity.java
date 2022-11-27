@@ -11,7 +11,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     TextView pantalla;
-    float v1 = 0.0f;
+    float v1 = 0.0f; //inicializar valores
     float v2 = 0.0f;
     String operacion = "";
     @Override
